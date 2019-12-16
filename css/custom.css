@@ -1,0 +1,11 @@
+.inline{
+    line-height: 2em;
+}
+
+.fa4custom{
+    font-size: 2.5em;
+}
+
+.newBG{
+    background-image: url("../img/header-2.jpg") !important; 
+}
