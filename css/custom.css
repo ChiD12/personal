@@ -9,3 +9,15 @@
 .newBG{
     background-image: url("../img/header-2.jpg") !important; 
 }
+.imgMax{
+    max-height: 280px;
+    
+}
+.divMax{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
