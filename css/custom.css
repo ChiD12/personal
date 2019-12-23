@@ -21,3 +21,36 @@
     display: flex;
     justify-content: center;
 }
+.git{
+    height: 38px !important;
+    width: 38px !important;
+    margin: 0 0 0 10px !important;
+}
+.gittop{
+    height: 50px !important;
+    width: 50px !important;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+    border: none !important;
+    background-image: url('../img/github.png');
+    background-size: 50px 50px;
+    transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.gittop:hover {
+    color: #fec503;
+    background-image: url('../img/githubyellow.png');
+}
+
+.buttons{
+    height: 50px;
+}
+
+.divLine{
+    display: flex;
+    justify-content: center;
+}
