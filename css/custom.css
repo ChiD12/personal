@@ -29,7 +29,7 @@
 .gittop{
     height: 50px !important;
     width: 50px !important;
-    margin: 0 0 0 0 !important;
+    margin: 0 8px 0 0 !important;
     padding: 0 0 0 0 !important;
     border: none !important;
     background-image: url('../img/github.png');
@@ -39,12 +39,34 @@
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    
 }
 
 .gittop:hover {
     color: #fec503;
     background-image: url('../img/githubyellow.png');
 }
+
+.play{
+    height: 50px !important;
+    width: 50px !important;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+    border: none !important;
+    background-image: url('../img/play_store.png');
+    background-size: 50px 50px;
+    transition: all .3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.play:hover {
+    color: #fec503;
+    background-image: url('../img/play_store_yellow.png');
+}
+
 
 .buttons{
     height: 50px;
@@ -53,4 +75,22 @@
 .divLine{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: #212529;
+}
+
+.btnCustom{
+    margin-right: 10px;
+}
+
+.portfolio-hover{
+    max-height: 200px;
+    background-color: #212529;
+    opacity: 100%;
+}
+.imgcustom{
+    max-height: 200px;
 }
