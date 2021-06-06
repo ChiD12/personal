@@ -94,3 +94,15 @@
 .imgcustom{
     max-height: 200px;
 }
+
+.pic{
+    float: left;
+}
+
+.wid{
+    width: 1000px;
+}
+
+.bg{
+    background-color: #f2f2f2;
+}
